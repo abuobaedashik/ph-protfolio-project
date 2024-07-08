@@ -92,16 +92,17 @@ nav ul{
 .header{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     background-position: top left, bottom right ;
     height: 812px;
     border: 2px solid white; 
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    padding-left: 30px;
 }
 /* header section end */
 /* common class */
 .sec-bg{
-    background: #FFF8F3;
+    background-color: #FFF8F3;
 }
 
 
@@ -174,4 +175,101 @@ nav ul{
 }
 .para-sk{
     margin-top: 20px;
+
 }
+/* resume-sec */
+.resume-container{
+    display: flex;
+    gap: 65px;
+}
+.text-con-resume{
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 130px;
+}
+.e-t2{
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.r-title{
+    color: rgb(71, 71, 71);
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 41px;
+}
+.res-col-co{
+    margin-top: 290px;
+    /* border: 4px solid green; */
+    margin-bottom: 50px;
+    padding: 30px;
+    border-radius: 10px;
+}
+.para-r{
+    color: rgb(117, 117, 117);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.button{
+    margin-bottom: 50px;
+}
+.foot{
+   display: flex;
+   gap: 30px;
+
+}
+.icon-foot{
+    display: flex;
+    padding-left: 230px;
+    padding-bottom: 520px;
+    gap: 18px;
+}
+.foot-hdr{
+    color: rgb(24, 24, 24);
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    padding-left: 230px;
+}
+.foot-hdr-pera{
+    text-align: left;
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 10px;
+    padding-left: 230px;
+    margin-top: 40px;
+}
+.foot-final{
+    margin-top: 130px;
+    padding-right: 50px;
+    margin-right: 40px;
+}
+#name{
+    width: 461px;
+    height: 64px;
+    border-radius: 6px;
+}
+.form{
+    width: 461px;
+    height: 64px;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+#ta{
+    height: 120px;
+}
+
+.end{
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
